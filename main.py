@@ -108,7 +108,7 @@ list3 = list2.copy()
 
 # list comprehension, lets you create new lists from existing lists
 
-num = [1, 2, 3, 4]
+num = [1, 2, 3, 4, 5]
 doubled = [n * 2 for n in num]
 print(doubled)  # [ 2, 4, 6, 8]
 odd = [n for n in num if n % 2 == 1]
